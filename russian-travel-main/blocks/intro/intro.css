@@ -1,0 +1,30 @@
+.intro {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 130px 56px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 56px;
+  align-items: start;
+}
+
+@media (max-width: 1023px) {
+  .intro {
+    padding: 80px 40px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro {
+    padding: 60px 20px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 424px) {
+  .intro {
+    padding: 40px 18px;
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 56px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding: 28px 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 16px;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

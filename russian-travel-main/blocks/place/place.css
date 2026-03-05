@@ -1,0 +1,13 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  column-gap: 34px;
+  row-gap: 0;
+}
+
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
